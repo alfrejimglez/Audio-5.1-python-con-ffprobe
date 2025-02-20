@@ -20,9 +20,8 @@ def find_5_1_mp4_files(directory):
                 file_path = os.path.join(root, file)
                 if is_5_1_audio(file_path):
                     print(f"✅ {file_path} tiene audio 5.1")
-                else:
-                    print(f"❌ {file_path} no tiene audio 5.1")
 
 if __name__ == "__main__":
     network_path = r"\\192.168.1.50\salas\series"
     find_5_1_mp4_files(network_path)
+    input("Presiona Enter para salir...")
