@@ -24,4 +24,4 @@ def find_5_1_mp4_files(directory):
 if __name__ == "__main__":
     network_path = r"\\192.168.1.50\salas\series"
     find_5_1_mp4_files(network_path)
-    input("Presiona Enter para salir...")
+    input("SE TERMINO ✅ Presiona Enter para salir...")
